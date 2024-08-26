@@ -1,16 +1,11 @@
 import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
-import { EmployeesComponent } from "./Employee/Employee.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { RouterOutlet } from "@angular/router";
 import { CommonModule } from "@angular/common";
 import { AppRoutingModule } from "./app-routing.module";
 import { BrowserModule } from "@angular/platform-browser";
-import { AddEmployeeComponent } from "./add-Employee/add-Employee.component";
-import { RegisterComponent } from "./register/register.component";
-import { LoginComponent } from "./login/login.component";
-import { EditEmployeeComponent } from './edit-employee/edit-employee.component';
 import { EmployeeListComponent } from "./employee-list/employee-list.component";
 import { EmployeeCreateComponent } from "./employee-create/employee-create.component";
 import { EmployeeUpdateComponent } from "./employee-update/employee-update.component";
@@ -18,11 +13,6 @@ import { EmployeeDetailsComponent } from "./employee-details/employee-details.co
 @NgModule({
     declarations: [
         AppComponent,
-        EmployeesComponent,
-        AddEmployeeComponent, 
-        LoginComponent,
-        RegisterComponent,
-        EditEmployeeComponent,
         EmployeeListComponent,
         EmployeeCreateComponent,
         EmployeeUpdateComponent,

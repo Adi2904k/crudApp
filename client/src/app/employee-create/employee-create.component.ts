@@ -21,12 +21,7 @@ export class EmployeeCreateComponent implements OnInit {
   }
   ngOnInit(): void {
 }
-// employee = {
-//   id:0,
-//   firstName: '',
-//   lastName: '',  
-//   emailId:'',
-// }
+
 saveEmployee(){
   this.employeeService.createEmployee(this.employee).subscribe(data =>{
     console.log(data);
