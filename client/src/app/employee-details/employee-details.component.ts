@@ -22,4 +22,7 @@ export class EmployeeDetailsComponent implements OnInit {
       this.employee=data;
     })
   }
+  goback(){
+    this.router.navigate(['/Employee-list']);
+  }
 }
